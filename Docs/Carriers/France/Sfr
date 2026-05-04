@@ -1,0 +1,10 @@
+# 🇫🇷 SFR — Paramètres SMS
+
+## SMSC
+`+33609001390`
+
+## Particularités
+- Encodage Unicode parfois limité
+
+## Problèmes connus
+- Retards en itinérance

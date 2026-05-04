@@ -1,0 +1,7 @@
+{
+  "carrier": "SFR",
+  "smsc": "+33609001390",
+  "encoding": "GSM-7",
+  "ims_support": true,
+  "notes": "Encodage Unicode parfois limité. Retards possibles en itinérance."
+}

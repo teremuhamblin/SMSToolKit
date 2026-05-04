@@ -1,0 +1,9 @@
+# 🍎 iOS — Particularités SMS
+
+## SMSC
+- Automatique
+- Non modifiable manuellement
+
+## IMS
+- Géré automatiquement
+- Très stable

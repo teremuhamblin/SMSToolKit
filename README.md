@@ -21,6 +21,7 @@ Il fournit une documentation claire, des fichiers de configuration standardisés
 
 ```text
 SMSToolKit/
+├── assets/         # Dossier images, svg, icons...
 ├── docs/           # Documentation complète
 ├── config/         # Fichiers de configuration (JSON + formats avancés)
 ├── tools/          # Scripts et utilitaires

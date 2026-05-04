@@ -1,0 +1,10 @@
+# 🇫🇷 Bouygues Telecom — Paramètres SMS
+
+## SMSC
+`+33660003000`
+
+## Particularités
+- Très bonne compatibilité IMS
+
+## Problèmes connus
+- Quelques retards en 3G

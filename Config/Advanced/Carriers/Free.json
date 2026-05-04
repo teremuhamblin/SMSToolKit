@@ -1,0 +1,7 @@
+{
+  "carrier": "Free Mobile",
+  "smsc": "+33695000695",
+  "encoding": "GSM-7",
+  "ims_support": true,
+  "notes": "Dépend fortement de l’itinérance Orange. Retards possibles en zones rurales."
+}

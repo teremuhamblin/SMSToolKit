@@ -1,0 +1,10 @@
+# 🤖 Android — Particularités SMS
+
+## Accès au SMSC
+- Via menu *Phone Info*
+- Via codes USSD
+- Via applications spécialisées
+
+## IMS / VoLTE
+- Peut influencer la livraison des SMS
+- Dépend du profil opérateur

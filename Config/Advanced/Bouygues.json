@@ -1,0 +1,7 @@
+{
+  "carrier": "Bouygues Telecom",
+  "smsc": "+33660003000",
+  "encoding": "GSM-7",
+  "ims_support": true,
+  "notes": "Très bonne compatibilité IMS. Quelques retards en 3G."
+}

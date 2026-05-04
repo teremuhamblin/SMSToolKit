@@ -1,0 +1,61 @@
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fond circulaire holographique -->
+  <defs>
+    <radialGradient id="holo" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0A0F1C"/>
+      <stop offset="60%" stop-color="#0A1A2A"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <!-- Glow néon -->
+    <filter id="neon">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grille tech -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00E0FF22" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Cercle principal -->
+  <circle cx="130" cy="130" r="115" fill="url(#holo)" stroke="#00E0FF" stroke-width="3" filter="url(#neon)"/>
+
+  <!-- Grille interne -->
+  <circle cx="130" cy="130" r="105" fill="url(#grid)" opacity="0.25"/>
+
+  <!-- Icône SMS isométrique -->
+  <g transform="translate(50,55)">
+    <!-- Ombre interne -->
+    <rect x="0" y="0" width="160" height="95" rx="14" fill="#00000055"/>
+
+    <!-- Cadre principal -->
+    <rect x="0" y="0" width="160" height="95" rx="14"
+          fill="none" stroke="#00E0FF" stroke-width="4" filter="url(#neon)"/>
+
+    <!-- Lignes du message -->
+    <line x1="20" y1="35" x2="140" y2="35" stroke="#00E0FF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="60" x2="120" y2="60" stroke="#00E0FF" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Pointe de bulle -->
+    <polygon points="120,95 140,120 140,95"
+             fill="#0A0F1C" stroke="#00E0FF" stroke-width="4" filter="url(#neon)"/>
+  </g>
+
+  <!-- Anneau holographique -->
+  <circle cx="130" cy="130" r="125"
+          stroke="#00E0FF55" stroke-width="2" fill="none" stroke-dasharray="6 12"/>
+
+  <!-- Texte SMSToolKit -->
+  <text x="130" y="225" font-family="Arial, sans-serif" font-size="26"
+        fill="#00E0FF" text-anchor="middle" letter-spacing="3"
+        filter="url(#neon)">
+    SMSToolKit
+  </text>
+
+</svg>

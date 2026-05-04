@@ -1,0 +1,10 @@
+# 🇫🇷 Free Mobile — Paramètres SMS
+
+## SMSC
+`+33695000695`
+
+## Particularités
+- Dépend fortement de l’itinérance Orange
+
+## Problèmes connus
+- Retards en zones rurales

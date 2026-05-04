@@ -1,0 +1,7 @@
+{
+  "carrier": "Orange France",
+  "smsc": "+33689004000",
+  "encoding": "GSM-7",
+  "ims_support": true,
+  "notes": "Très stable. Compatible VoLTE/IMS."
+}

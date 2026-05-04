@@ -1,0 +1,21 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond circulaire -->
+  <circle cx="110" cy="110" r="100" fill="#0A0F1C" stroke="#00E0FF" stroke-width="4"/>
+
+  <!-- Icône SMS stylisée -->
+  <rect x="45" y="60" width="130" height="80" rx="12" ry="12"
+        fill="none" stroke="#00E0FF" stroke-width="4"/>
+
+  <!-- Ligne du bas (effet message) -->
+  <line x1="60" y1="95" x2="160" y2="95" stroke="#00E0FF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="60" y1="115" x2="140" y2="115" stroke="#00E0FF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Triangle "bulle" -->
+  <polygon points="140,140 155,160 155,140" fill="#0A0F1C" stroke="#00E0FF" stroke-width="4"/>
+
+  <!-- Texte SMSToolKit -->
+  <text x="110" y="185" font-family="Arial, sans-serif" font-size="22" fill="#00E0FF"
+        text-anchor="middle" letter-spacing="2">
+    SMSToolKit
+  </text>
+</svg>

@@ -1,33 +1,13 @@
-####### README.MD * markdown
-🧩 
-Voici exactement ce que tu m’as demandé, Teremu :  
-👉 une petite description du projet SMSToolKit  
-👉 un README.md simple mais complet, propre, professionnel, prêt à être placé à la racine du dépôt.
-
-Je te livre les deux sections séparées pour que tu puisses les utiliser comme tu veux.
-
+###### README.MD * markdown
 ---
-
-🧩 Description courte du projet SMSToolKit
-
-SMSToolKit est un projet technique et pédagogique dédié au paramétrage, diagnostic et optimisation des SMS sur smartphones.  
-Il centralise les informations essentielles sur le fonctionnement des SMS, les paramètres opérateurs (SMSC), les formats d’encodage, les problèmes courants et leurs solutions.  
-Le projet inclut également des outils pratiques (scripts, générateurs, diagnostics) ainsi qu’un site web simplifié pour rendre la configuration accessible à tous.
-
----
-
-📘 README.md — Version simple, propre et complète
-
-`markdown
-
-📱 SMSToolKit
+# 🧩 SMSToolKit
 
 SMSToolKit est un projet dédié au paramétrage, au diagnostic et à l’optimisation des SMS sur smartphones.  
 Il fournit une documentation claire, des fichiers de configuration standardisés et des outils pratiques pour comprendre, configurer et dépanner le service SMS.
 
 ---
 
-🎯 Objectifs
+### 🎯 Objectifs
 
 - Expliquer simplement comment fonctionnent les SMS
 - Documenter les paramètres essentiels (SMSC, encodage, TTL, rapports de livraison)
@@ -37,19 +17,19 @@ Il fournit une documentation claire, des fichiers de configuration standardisés
 
 ---
 
-📁 Structure du projet
+### 📁 Structure du projet
 
-`
+```text
 SMSToolKit/
 ├── docs/           # Documentation complète
 ├── config/         # Fichiers de configuration (JSON + formats avancés)
 ├── tools/          # Scripts et utilitaires
 └── website/        # Mini-site d'information et d'outils
-`
+```
 
 ---
 
-📚 Documentation
+### 📚 Documentation
 
 La documentation est disponible dans le dossier :
 
@@ -70,7 +50,7 @@ Elle inclut :
 
 ---
 
-🛠️ Outils
+### 🛠️ Outils
 
 Le dossier tools/ contient :
 
@@ -81,7 +61,7 @@ Le dossier tools/ contient :
 
 ---
 
-🌐 Site web
+### 🌐 Site web
 
 Un mini-site est disponible dans :
 
@@ -98,7 +78,7 @@ Il propose :
 
 ---
 
-🗺️ Roadmap
+### 🗺️ Roadmap
 
 - v1.0 — Documentation de base + outils essentiels  
 - v1.1 — Fiches opérateurs France + site web minimal  
@@ -106,9 +86,9 @@ Il propose :
 
 ---
 
-📄 Licence
+### 📄 Licence
 
-Projet distribué sous licence MIT.
+Projet distribué sous licence GPL 3.0
 `
 
 ---

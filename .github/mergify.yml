@@ -1,0 +1,16 @@
+pull_request_rules:
+  - name: Auto-merge PRs passing CI
+    conditions:
+      - "status-success=CI"
+      - "label=automerge"
+    actions:
+      merge:
+        method: squash
+
+  - name: Add reviewers automatically
+    conditions:
+      - "base=main"
+    actions:
+      request_reviews:
+        users:
+          - Teremu

@@ -1,0 +1,13 @@
+{
+    "service": "SMSToolKit",
+    "smsc": "+000000000",
+    "encoding": "GSM-7",
+    "retry": 3,
+    "timeout": 5000,
+    "senderId": "DEFAULT",
+    "features": {
+        "ucs2": false,
+        "flash": false,
+        "deliveryReport": true
+    }
+}

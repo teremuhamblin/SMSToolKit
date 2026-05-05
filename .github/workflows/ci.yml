@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: "**/*.md"
+
+      - name: Validate JSON
+        run: |
+          find . -name "*.json" -print0 | xargs -0 -I {} jq empty {}
+
+      - name: Lint YAML
+        uses: ibiqlik/action-yamllint@v3

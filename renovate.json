@@ -1,0 +1,49 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":automergeMinor",
+    ":automergeBranch",
+    "group:allNonMajor"
+  ],
+
+  "timezone": "Europe/Paris",
+  "schedule": ["after 6am and before 6pm on weekdays"],
+
+  "labels": ["dependencies", "automated-update", "renovate"],
+
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": true,
+
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 3,
+
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["*"],
+      "automerge": true,
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions",
+      "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["eslint", "prettier"],
+      "groupName": "Code Style Tools",
+      "automerge": true
+    }
+  ],
+
+  "branchPrefix": "update/",
+  "commitMessagePrefix": "🔄",
+  "commitMessageAction": "upgrade",
+  "commitMessageTopic": "{{depName}}",
+
+  "enabledManagers": ["npm", "github-actions"]
+}

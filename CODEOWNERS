@@ -1,0 +1,11 @@
+# Code Owners for SMSToolKit
+
+# Propriétaire principal du projet
+* @teremuhamblin 
+
+# Dossiers critiques
+assets/ @teremuhamblin 
+docs/ @teremuhamblin 
+tools/ @teremuhamblin 
+config/ @teremuhamblin 
+.github/ @teremuhamblin 
